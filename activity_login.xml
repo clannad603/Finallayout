@@ -30,10 +30,12 @@
 
         <EditText
 
-            android:id="@+id/account"
+            android:id="@+id/EditText_account"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:lines="1"
+            android:inputType="text"
             android:layout_gravity="center_vertical"
             android:hint="请输入账号"/>
         </LinearLayout>
@@ -49,13 +51,14 @@
                   android:src="@drawable/ic_password"/>
                 <EditText
 
-                    android:id="@+id/password"
+                    android:id="@+id/EditText_password"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:lines="1"
                     android:layout_gravity="center_vertical"
-                    android:hint="请输入密码"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword"
+                    android:hint="请输入密码" />
             </LinearLayout>
 
     <LinearLayout
@@ -80,7 +83,7 @@
             android:layout_height="wrap_content"
             android:weightSum="100">
     <Button
-        android:id="@+id/login"
+        android:id="@+id/Button_login"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -89,7 +92,7 @@
         android:textSize="20sp"
         android:text="登录"/>
         <Button
-            android:id="@+id/set"
+            android:id="@+id/Button_set"
             android:background="@android:color/transparent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +101,7 @@
             android:layout_weight="50"
             android:textColor="@android:color/black"/>
     </LinearLayout>
+
         <LinearLayout
 
             android:orientation="horizontal"
@@ -106,7 +110,7 @@
             android:weightSum="100">
             <ImageButton
                 android:background="@android:color/transparent"
-                android:id="@+id/wei"
+                android:id="@+id/ImageButton_wei"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
@@ -114,7 +118,7 @@
               />
             <ImageButton
                 android:background="@android:color/transparent"
-                android:id="@+id/tx"
+                android:id="@+id/ImageButton_tx"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 android:src="@drawable/account_tencent"
