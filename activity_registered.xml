@@ -8,7 +8,7 @@
     <ImageButton
         android:background="@android:color/transparent"
         android:src="@drawable/ic_back_register"
-        android:id="@+id/button2"
+        android:id="@+id/ImageButton_button2"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
          />
@@ -34,7 +34,7 @@
 
         <EditText
 
-            android:id="@+id/raccount"
+            android:id="@+id/EditText_account1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -52,7 +52,7 @@
             android:src="@drawable/ic_password"/>
         <EditText
 
-            android:id="@+id/r0password"
+            android:id="@+id/EditText_r0password"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -71,7 +71,7 @@
             android:src="@drawable/ic_password"/>
         <EditText
 
-            android:id="@+id/r1password"
+            android:id="@+id/EditText_r1password"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -84,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <Button
-            android:id="@+id/rset"
+            android:id="@+id/Button_rset"
             android:background="@drawable/button_shape"
             android:layout_width="match_parent"
             android:layout_height="50dp"
